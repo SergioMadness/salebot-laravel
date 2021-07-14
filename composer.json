@@ -1,0 +1,51 @@
+{
+  "name": "professionalweb/laravel-salebot",
+  "description": "Library to communicate with Salebot for Laravel",
+  "keywords": [
+    "laravel",
+    "salebot",
+    "api"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:SergioMadness/salebot-lib.git"
+    }
+  ],
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zinchenko Sergey",
+      "email": "madness.sergio@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "info@web-development.pw",
+    "issues": "https://github.com/SergioMadness/salebot-laravel/issues",
+    "wiki": "https://github.com/SergioMadness/salebot-laravel/wiki",
+    "source": "https://github.com/SergioMadness/salebot-laravel/releases"
+  },
+  "require": {
+    "illuminate/support": ">=5.3",
+    "professionalweb/salebot": "dev-develop"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {
+      "professionalweb\\salebot\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "professionalweb\\salebot\\SalebotProvider"
+      ]
+    }
+  }
+}
