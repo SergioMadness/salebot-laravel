@@ -1,4 +1,4 @@
-<?php namespace professionalweb\salebot\SalebotProvider;
+<?php namespace professionalweb\salebot;
 
 use Illuminate\Support\ServiceProvider;
 use professionalweb\salebot\Services\Salebot;
