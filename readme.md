@@ -1,4 +1,4 @@
-Library to communicate with [Salebot](https://salebot.pro/)
+Library to communicate with [Salebot](https://salebot.pro/) in [Laravel](https://laravel.com)
 ====
 
 [![Latest Stable Version](http://poser.pugx.org/professionalweb/laravel-salebot/v)](https://packagist.org/packages/professionalweb/laravel-salebot) 
@@ -10,6 +10,12 @@ Library to communicate with [Salebot](https://salebot.pro/)
 Requirements
 ------------
 - PHP 7.1.3+
+
+
+Dependencies
+------------
+- [professionalweb/salebot](https://github.com/SergioMadness/salebot-lib)
+- [Laravel](https://laravel.com)
 
 
 Installation
